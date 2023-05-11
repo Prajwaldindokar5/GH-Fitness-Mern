@@ -1,0 +1,50 @@
+.strength-section {
+  position: relative;
+  .strength-guide {
+    text-align: center;
+    padding: 1px 1px 5% 1px;
+  }
+  .workout {
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    width: 80%;
+    height: 12rem;
+    margin: 7% 10%;
+    box-shadow: 3px 3px 12px 1.5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    h3 {
+      grid-column: 1/-1;
+      justify-self: center;
+      align-self: center;
+      cursor: none;
+    }
+    .muscle-name {
+      font-weight: bolder;
+      padding: 0px 0px;
+      cursor: pointer;
+      background-color: #eaf3ed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .muscle {
+        padding: 5px;
+
+        .name-muscle {
+          padding: 5px;
+        }
+        .muscle-icon {
+          height: 45px;
+          width: 45px;
+          border-radius: 50%;
+          background-position: center;
+          background-size: cover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

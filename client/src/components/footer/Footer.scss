@@ -1,0 +1,40 @@
+.footer {
+  .contactUs {
+    background: linear-gradient(462deg, black 20%, #262626 80%);
+    border-top: 5px solid green;
+
+    .contact-us {
+      display: flex;
+      justify-content: space-evenly;
+      color: white;
+      align-items: center;
+
+      .contact-logo {
+        font-size: 3rem;
+
+        strong {
+          color: #fff;
+        }
+        span {
+          color: #90ee90;
+        }
+      }
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px;
+
+        .some-info {
+          padding: 5px 5px 20px 5px;
+        }
+        .info {
+          span {
+            padding: 5.5px;
+          }
+        }
+      }
+    }
+  }
+}

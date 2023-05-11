@@ -1,0 +1,97 @@
+.diet-form {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 18px 16px rgba(0, 0, 0, 0.5);
+  width: 30%;
+  margin: 50px 35%;
+  padding: 50px 0px 30px 0px;
+  z-index: 1000;
+  transition: all 1s ease-in;
+  /* position: fixed; */
+  top: 25%;
+  background-color: whitesmoke;
+
+  label {
+    justify-self: flex-start;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid gray;
+    justify-self: flex-start;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  .gender-section {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    width: 96%;
+
+    h4 {
+      text-align: center;
+      padding: 10px;
+    }
+    label {
+      margin: 0px 10px 0px 0px;
+      padding: 0px 0px 0px 10px;
+    }
+  }
+  .intrest-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    width: 15rem;
+    margin: 0px 35px;
+  }
+  .submitBtn {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/-1;
+    padding: 10px;
+    border: none;
+    border-radius: 3.5px;
+    box-shadow: 1.5px 1.5px 9px 1px rgba(0, 0, 0, 0.3);
+    font-size: 0.85rem;
+  }
+}
+
+.nutrition-plan {
+  width: 40%;
+  margin: 5% 30%;
+  padding: 2%;
+  border-radius: 4px;
+  box-shadow: 3px 3px 9px 1px rgb(0 0 0 / 30%);
+  p {
+    word-spacing: 2px;
+    line-height: 25px;
+  }
+
+  .name-plan {
+    font-weight: bold;
+    opacity: 0.9;
+  }
+  .micros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+
+    .nutritions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 35px;
+      text-align: center;
+    }
+  }
+}
